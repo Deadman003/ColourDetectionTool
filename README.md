@@ -1,2 +1,2 @@
 # Colour_Detection_Tool
-Making a tool that will detect the colour.
+Using OpenCV to access the camera and match the centre point's colour(RGB)values with the csv dataframe to recognise the colourname.
