@@ -2,7 +2,7 @@ import cv2
 import pandas as pd
 
 # Taking the dataset
-colours = pd.read_csv('colorsWIKI.csv')
+colours = pd.read_csv('ColourDetectionTool\colorsWIKI.csv')
 
 # Remove '%' symbol and extra spaces, and convert columns to float
 colours["R"] = colours["Red"].str.replace('%', '').str.strip().astype(float)
